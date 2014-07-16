@@ -1,0 +1,33 @@
+# Version: 7.2.6.19 (36961c5)
+# [first argument, ignore] # /Users/don/Projects/Hollywood/iOS/bin/iPhoneSimulator/Debug/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/don/Projects/Hollywood/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/don/Projects/Hollywood/iOS/bin/iPhoneSimulator/Debug/HollywoodiOS.app \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-r \
+	/Users/don/Projects/Hollywood/packages/Xamarin.Forms.1.2.1.6229/lib/MonoTouch10/Xamarin.Forms.Platform.iOS.dll \
+	-r \
+	/Users/don/Projects/Hollywood/packages/Xamarin.Forms.1.2.1.6229/lib/MonoTouch10/Xamarin.Forms.Core.dll \
+	-r \
+	/Users/don/Projects/Hollywood/packages/Xamarin.Forms.1.2.1.6229/lib/MonoTouch10/Xamarin.Forms.Xaml.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	7.1 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/don/Projects/Hollywood/iOS/bin/iPhoneSimulator/Debug/HollywoodiOS.exe \

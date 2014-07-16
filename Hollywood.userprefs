@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="Android.DonTest" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/MainPage.cs">
+    <Files>
+      <File FileName="Model/Actor.cs" Line="21" Column="21" />
+      <File FileName="Model/Movie.cs" Line="21" Column="21" />
+      <File FileName="ViewModels/MovieListViewModel.cs" Line="5" Column="5" />
+      <File FileName="Pages/MovieDetailPage.cs" Line="53" Column="53" />
+      <File FileName="Pages/MainPage.cs" Line="6" Column="6" />
+      <File FileName="App.cs" Line="33" Column="33" />
+      <File FileName="Pages/MovieListPage.cs" Line="15" Column="15" />
+      <File FileName="Services/ISettingsService.cs" Line="1" Column="1" />
+      <File FileName="iOS/Services/TouchSettings.cs" Line="48" Column="48" />
+      <File FileName="Android/Services/AndroidSettings.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

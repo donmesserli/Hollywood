@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{ABD4A0A0-4C73-443B-B324-2C9F041858AC}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Hollywood</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\MainPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\MovieListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ActorListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MovieListViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Movie.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Actor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ActorListViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ActorDetailPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\MovieDetailPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ISettingsService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\MovieViewCell.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Model\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Pages\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Services\" />
+  </ItemGroup>
+</Project>

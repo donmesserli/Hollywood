@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<color name="textColor">#000000</color>
+	<color name="textFieldColor">#000</color>
+	<color name="textShadow">#FFF</color>
+	<color name="listViewBg">#DADFEE</color>
+
+	<color name="sendLightColor">#8897BF</color>
+	<color name="sendMediumColor">#5D6CA5</color>
+	<color name="sendDarkColor">#515F9F</color>
+
+	<color name="barDarkColor">#CECECE</color>
+	<color name="barMediumColor">#DFDEE0</color>
+	<color name="barLightColor">#F2F2F2</color>
+
+
+    <color name="red">#FF2020</color>
+    <color name="black">#000000</color>
+    <color name="action_bar_top">#FF16B5FF</color>
+    <color name="action_bar_bottom">#FF0C73A6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="button_top">#FF42C3FF</color>
+    <color name="button_bottom">#FF005A87</color>
+    
+</resources>
+
